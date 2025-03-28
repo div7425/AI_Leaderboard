@@ -1,0 +1,15 @@
+[package]
+name = "AI_Leaderboard"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0xe72e102baa384352d0253428132e54d1ae18cb17745706a6026ece1f50dfd9d"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
